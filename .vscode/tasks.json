@@ -4,7 +4,7 @@
     {
       "label": "compile and run",
       "type": "shell",
-      "command": "g++ -std=c++17 -o ${fileBasenameNoExtension} ${file} && ./${fileBasenameNoExtension} < /home/hasanmdarik/C++/codeforces/input.txt > /home/hasanmdarik/C++/codeforces/output.txt",
+      "command": "g++ -std=c++17 -o ./bin/${fileBasenameNoExtension} ${file} && ./bin/${fileBasenameNoExtension} < ./input.txt > ./output.txt",
       "group": {
         "kind": "build",
         "isDefault": true
