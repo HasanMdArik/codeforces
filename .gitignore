@@ -8,9 +8,10 @@
 # Unignore all dirs
 !*/
 
-# Ignore binary, out and exe files
+# Ignore binary, out and exe files and non-necessary directories
 *.exe
 *.bin
 *.out
-.vscode/*
+# .vscode/*
 .idea/*
+.cph/
