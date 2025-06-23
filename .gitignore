@@ -1,7 +1,6 @@
 # Ignore all
 *
 
-
 # Unignore all with extensions
 !*.*
 
@@ -12,6 +11,5 @@
 *.exe
 *.bin
 *.out
-# .vscode/*
 .idea/*
 .cph/
