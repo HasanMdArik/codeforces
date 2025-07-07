@@ -12,4 +12,6 @@
 *.bin
 *.out
 .idea/*
+.vscode/
+!.vscode/tasks.json
 .cph/
