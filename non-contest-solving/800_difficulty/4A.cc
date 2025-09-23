@@ -6,7 +6,7 @@ int main(int argc, char const *argv[])
     int w;
     cin >> w;
 
-    if (w % 4 == 0 || (w % 2 == 0 && w > 4))
+    if (w % 2 == 0 && w >= 4)
     {
         cout << "YES\n";
     }
