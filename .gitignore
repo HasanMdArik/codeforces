@@ -15,3 +15,6 @@
 .vscode/
 !.vscode/tasks.json
 .cph/
+
+# Ignore live contest files
+contest/live/
